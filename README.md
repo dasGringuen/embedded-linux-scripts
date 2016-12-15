@@ -1,5 +1,5 @@
 # Embedded Linux and remote host connection scripts
-Set of script to make easier the connection and browsing of remote hosts through ssh.
+Set of scripts to make easier the connection and browsing file systems of remote hosts through ssh.
 Written in Python 3
 
 Adrian Remonda 2016
@@ -25,8 +25,8 @@ Adrian Remonda 2016
 2. Customize the el.conf file created in the previous step
 ```sh
     user="ad"               # remote login user name
-    ip="localhost"          # remote host address
-    file_manager="nautilus" # can specify Nautilus, Dolphin or any other
+    ip="localhost"          # remote host address or domain name
+    file_manager="nautilus" # File manager can specify Nautilus, Dolphin or any other
 ```
 
 3.  To avoid writing the remote password everytime (Optional)
