@@ -1,0 +1,11 @@
+#!/usr/bin/python3 -B
+
+# Remonda Adrian 2016
+
+import os
+from elenv import env
+
+comm = "ping " + env.ip
+
+print ("## " + comm)
+os.system(comm)

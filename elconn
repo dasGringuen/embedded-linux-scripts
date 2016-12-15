@@ -1,0 +1,16 @@
+#!/usr/bin/python3 -B
+
+# Remonda Adrian 2016
+
+import os
+from elenv import env
+
+comm = "ssh " + env.user + "@" + env.ip
+
+print ("## Trying to connect with: " + comm)
+os.system(comm)
+
+
+
+
+

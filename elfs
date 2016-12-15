@@ -1,0 +1,13 @@
+#!/usr/bin/python3 -B
+
+# Remonda Adrian 2016
+
+import os
+from elenv import env
+
+os.system(env.file_manager + ' sftp://' + env.ip + '/home')
+
+
+
+
+

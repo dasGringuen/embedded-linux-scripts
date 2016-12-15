@@ -1,0 +1,15 @@
+#!/usr/bin/python3 -B
+
+# Remonda Adrian 2016
+
+import os
+from elenv import env
+
+print("Setup target tools")
+
+os.system('ssh-keygen -f "/home/${USER}/.ssh/known_hosts" -R' + env.ip)
+os.system('ssh-copy-id ' + env.user + '@' + env.ip)
+
+
+
+

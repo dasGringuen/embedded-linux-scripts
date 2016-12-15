@@ -1,0 +1,5 @@
+#! /bin/sh
+
+# Remonda Adrian 2016
+
+cp /usr/bin/eldef.conf el.conf -v
