@@ -51,6 +51,7 @@ It will run the file manager configured in step 2
 ### Todos
 
  - Have one script, instead of having them separated. Should include autocomplete with TAB
+ - Add scp or rsync command wrapper
  
 ### License
 
