@@ -3,9 +3,9 @@
 # Remonda Adrian 2016
 
 import os
+from elenv import env
 
-os.system("sudo minicom")
-
+os.system("sudo minicom --device " + env.serial_port)
 
 
 
