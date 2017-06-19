@@ -27,12 +27,9 @@ Adrian Remonda 2016
     user="ad"               # remote login user name
     ip="localhost"          # remote host address or domain name
     file_manager="nautilus" # File manager can specify Nautilus, Dolphin or any other
+    serial_port=""          # Serial port device path. E.g. "/dev/ttyUSB0"
+    default_remote_path=""  # Remote host default path. E.g. '/home/user/src'
 ```
-
-3.  To avoid writing the remote password everytime (Optional)
-    The public key will be copied to the remote host
-    
-    ~$ elsetup_remote_host
     
 ## Use
 ### Ping the remote host
@@ -47,6 +44,16 @@ Adrian Remonda 2016
 It will run the file manager configured in step 2
 
     ~$ elfs
+    
+### Connect using the serial port
+
+    ~$ elserial
+    
+
+### To avoid writing the remote password everytime
+The public key will be copied to the remote host
+    
+    ~$ elsetup_remote_host    
     
 ### Todos
 
