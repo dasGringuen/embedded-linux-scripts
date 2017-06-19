@@ -5,7 +5,7 @@
 import os
 from elenv import env
 
-os.system(env.file_manager + ' sftp://' + env.ip + '/home')
+os.system(env.file_manager + ' sftp://' + env.ip + env.default_remote_path)
 
 
 
